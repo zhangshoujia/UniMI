@@ -13,7 +13,7 @@ revision was not recorded.
 ## Data and Weights
 
 All released data and adapters are in the
-[UniMI_data Google Drive folder](<DRIVE_LINK>).
+[UniMI_data Google Drive folder](https://drive.google.com/drive/folders/1f0qRauq0qWhQHdX_jfhmiubDRIbUJ1mg?usp=drive_link).
 
 | Archive | Contents | Size |
 | --- | --- | --- |
