@@ -1,0 +1,1 @@
+{"dataset": "Demo", "anchor": {"item_id": "D00", "title": "Synthetic product 00"}, "candidates": [{"item_id": "D01", "title": "Synthetic product 01", "semantic_alignment_score": 0.9}, {"item_id": "D02", "title": "Synthetic product 02", "semantic_alignment_score": 0.6}, {"item_id": "D03", "title": "Synthetic product 03", "semantic_alignment_score": 0.2}]}

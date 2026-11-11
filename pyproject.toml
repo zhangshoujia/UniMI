@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unimi"
+version = "0.1.0"
+description = "Semantic preference and collaborative contrastive alignment for multimodal item embeddings"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch==2.8.0",
+    "torchvision==0.23.0",
+    "transformers==4.57.3",
+    "peft==0.17.1",
+    "accelerate==1.12.0",
+    "numpy==2.2.6",
+    "Pillow==12.2.0",
+    "tqdm==4.68.1",
+    "safetensors==0.7.0",
+    "tokenizers==0.22.2",
+    "huggingface-hub==0.36.2",
+]
+
+[project.scripts]
+mmemb-train-spa = "mmemb.train_spa:main"
+mmemb-train-cca = "mmemb.train_cca:main"
+mmemb-export = "mmemb.export_embeddings:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
